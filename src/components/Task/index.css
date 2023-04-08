@@ -1,0 +1,47 @@
+.main-bg {
+
+    font-family: sans-serif;
+    min-height: 100vh;
+    background-color: #f7ededa7;
+    position: inherit;
+    margin: 30px;
+
+}
+
+.form {
+    width: 60%;
+    max-width: 780px;
+    border: solid 3px #0011ac76;
+    padding: 10px;
+    margin-bottom: 100px;
+    border-radius: 10px;
+    margin-top: 120px;
+    margin-left: 400px;
+}
+
+.tag {
+    background-color: rgb(129, 120, 18);
+    padding: 8px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+.add_new_btn {
+    margin-bottom: 10px;
+}
+
+.table {
+    border: solid 3px #061e6b;
+    height: 100%;
+    padding: 2px;
+}
+
+.cancel_btn {
+    margin-left: 30px;
+
+}
+
+.delete_icon {
+    margin-left: 15px;
+
+}
