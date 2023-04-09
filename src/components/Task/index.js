@@ -137,7 +137,7 @@ const [showUpdateForm, setShowUpdateForm]= useState(false)
                 const month = dueDate.getMonth() + 1;
                 const year = dueDate.getFullYear();
                 const updatedDate = `${day}-${month}-${year.toString().substring(2)}`;
-                console.log(updatedDate);
+              
                 return updatedDate;
             },
             
@@ -169,12 +169,7 @@ const [showUpdateForm, setShowUpdateForm]= useState(false)
             filterMultiple: true,
             onFilter:(value, record)=>  
                 {   
-                    
-                    console.log("this is record")
-                    console.log(record.tags) 
-
-                    console.log("this is value") 
-                    console.log(value)
+                   
                     
                   return record.tags.includes(value)
                 }
